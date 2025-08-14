@@ -22,10 +22,8 @@ export const CaseStudy = () => {
             </div>
             
             <h2 className="text-5xl lg:text-7xl font-black mb-8">
-              Real Results,
-              <span className="block gradient-hero bg-clip-text text-transparent text-glow">
-                Real Impact
-              </span>
+              Real Impact
+              
             </h2>
             
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">

@@ -20,11 +20,9 @@ export const Header = () => {
             <img 
               src="/lovable-uploads/1a725d54-1cf7-4edb-a792-f02965ebf726.png" 
               alt="GenzLogic" 
-              className="w-10 h-10"
+              className="w-12  rounded-sm h-12"
             />
-            <span className="text-2xl font-black gradient-hero bg-clip-text text-transparent">
-              GENZLOGIC
-            </span>
+           
           </div>
           
           <nav className="hidden md:flex items-center gap-8">

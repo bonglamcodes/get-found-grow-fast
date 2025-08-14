@@ -76,14 +76,14 @@ export const Services = () => {
             </div>
             
             <h2 className="text-5xl lg:text-7xl font-black mb-8">
-              <span className="gradient-hero bg-clip-text text-transparent text-glow">
-                Revolutionary
+              <span className=" p-2 rounded-sm bg-clip-text text-white ">
+                Digital Solutions
               </span>
-              <br />Digital Solutions
+              <br />
             </h2>
             
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              We don't just build websites—we create digital experiences that transform businesses and captivate audiences.
+              We don't just build websites and applications we create digital experiences that transform businesses and captivate audiences.
             </p>
           </div>
         </ScrollReveal>

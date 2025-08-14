@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin } from "lucide-react";
+import { Mail, Phone, Instagram, Youtube, Facebook } from "lucide-react";
 
 export const Footer = () => {
   return (
@@ -9,20 +9,20 @@ export const Footer = () => {
           <div className="lg:col-span-2">
             <div className="flex items-center gap-3 mb-4">
               <img 
-                src="/lovable-uploads/1a725d54-1cf7-4edb-a792-f02965ebf726.png" 
+                src="/lovable-uploads/1a725d54-1cf7-4edb-a792-f02965ebf726.png"  
                 alt="GenzLogic" 
-                className="w-8 h-8 brightness-0 invert"
+                className="w-7 h-7 rounded-full"
               />
-              <span className="text-2xl font-bold">GENZLOGIC</span>
             </div>
             <p className="text-primary-foreground/80 mb-6 max-w-md">
               Empowering businesses through smart and modern technology solutions. We help small to mid-scale businesses build their online presence and grow their customer base.
             </p>
+            
             <div className="space-y-2">
               <div className="flex items-center gap-3 text-sm">
                 <Mail className="w-4 h-4" />
                 <a href="mailto:bonglamlouis@gmail.com" className="hover:text-primary-foreground/80">
-                  bonglamlouis@gmail.com
+                  genzlogic@gmail.com
                 </a>
               </div>
               <div className="flex items-center gap-3 text-sm">
@@ -58,7 +58,40 @@ export const Footer = () => {
           </div>
         </div>
         
-        <div className="border-t border-primary-foreground/20 mt-8 pt-8 text-center text-sm text-primary-foreground/60">
+        {/* Divider */}
+       
+
+        {/* Social Media Icons at the Bottom */}
+        <div className="mt-10 mb-10 flex justify-center gap-6">
+          <a 
+            href="https://instagram.com" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="transition-transform hover:scale-110"
+            style={{ color: "#E1306C" }}
+          >
+            <Instagram className="w-10 h-10" />
+          </a>
+          <a 
+            href="https://youtube.com" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="transition-transform hover:scale-110"
+            style={{ color: "#FF0000" }}
+          >
+            <Youtube className="w-10 h-10" />
+          </a>
+          <a 
+            href="https://facebook.com" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="transition-transform hover:scale-110"
+            style={{ color: "#1877F2" }}
+          >
+            <Facebook className="w-10 h-10" />
+          </a>
+        </div>
+         <div className="border-t border-primary-foreground/20 mt-8 pt-8 text-center text-sm text-primary-foreground/60">
           <p>&copy; 2025 GenzLogic. All rights reserved.</p>
         </div>
       </div>

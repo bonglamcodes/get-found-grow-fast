@@ -34,12 +34,10 @@ export const Hero = () => {
             </div>
             
             <h1 className="text-6xl lg:text-8xl font-black leading-tight">
-              TRANSFORM
-              <span className="block gradient-hero bg-clip-text text-transparent text-glow">
-                YOUR BUSINESS
-              </span>
+              Grow Your Business
+              
               <span className="block text-4xl lg:text-5xl font-normal text-muted-foreground">
-                with modern web solutions
+                with modern digital solutions
               </span>
             </h1>
             

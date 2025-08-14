@@ -80,10 +80,8 @@ export const CompaniesTransformed = () => {
             </div>
             
             <h2 className="text-5xl lg:text-7xl font-black mb-8">
-              Companies We've
-              <span className="block gradient-hero bg-clip-text text-transparent text-glow">
-                Transformed
-              </span>
+              Companies We've Transformed
+           
             </h2>
             
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
