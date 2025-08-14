@@ -15,7 +15,7 @@ export const Footer = () => {
               />
             </div>
             <p className="text-primary-foreground/80 mb-6 max-w-md">
-              Empowering businesses through smart and modern technology solutions. We help small to mid-scale businesses build their online presence and grow their customer base.
+              Empowering businesses through smart andmodern technology solutions. We help small to mid-scale businesses build their online presence and grow their customer base.
             </p>
             
             <div className="space-y-2">
