@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
+import genzlogo from "@/assets/genzlogo.png";
 
 export const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -18,7 +19,7 @@ export const Header = () => {
         <div className="flex items-center justify-between h-20">
           <div className="flex items-center gap-3">
             <img 
-              src="/lovable-uploads/1a725d54-1cf7-4edb-a792-f02965ebf726.png" 
+             src={genzlogo} 
               alt="GenzLogic" 
               className="w-12  rounded-sm h-12"
             />

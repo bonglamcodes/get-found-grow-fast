@@ -42,7 +42,7 @@ export const Hero = () => {
             </h1>
             
             <p className="text-xl text-muted-foreground leading-relaxed max-w-2xl">
-              We create <span className="text-primary font-semibold text-glow">stunning digital experiences</span> that convert visitors into customers. Get ready to dominate your market with cutting-edge web technology.
+              We create <span className="text-primary font-semibold text-glow">stunning digital experiences</span> that convert visitors into customers. Get ready to dominate your market with cutting-edge technologies.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-6">

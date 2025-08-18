@@ -11,7 +11,7 @@ export const Footer = () => {
               <img 
                 src="/lovable-uploads/1a725d54-1cf7-4edb-a792-f02965ebf726.png"  
                 alt="GenzLogic" 
-                className="w-7 h-7 rounded-full"
+                className="w-10 h-10  rounded-full"
               />
             </div>
             <p className="text-primary-foreground/80 mb-6 max-w-md">
@@ -39,10 +39,10 @@ export const Footer = () => {
             <h4 className="font-semibold mb-4">Services</h4>
             <ul className="space-y-2 text-sm text-primary-foreground/80">
               <li><a href="#services" className="hover:text-primary-foreground">Website Development</a></li>
-              <li><a href="#services" className="hover:text-primary-foreground">E-commerce Solutions</a></li>
-              <li><a href="#services" className="hover:text-primary-foreground">SEO Optimization</a></li>
-              <li><a href="#services" className="hover:text-primary-foreground">Social Media Integration</a></li>
-              <li><a href="#services" className="hover:text-primary-foreground">Business Dashboards</a></li>
+              <li><a href="#services" className="hover:text-primary-foreground"> Mobile App Solutions</a></li>
+                 <li><a href="#services" className="hover:text-primary-foreground"> Business Dashboards</a></li>
+                      <li><a href="#services" className="hover:text-primary-foreground"> Technology Solutions</a></li>
+
             </ul>
           </div>
           
@@ -64,7 +64,7 @@ export const Footer = () => {
         {/* Social Media Icons at the Bottom */}
         <div className="mt-10 mb-10 flex justify-center gap-6">
           <a 
-            href="https://instagram.com" 
+            href="https://www.instagram.com/genz_logic/" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="transition-transform hover:scale-110"

@@ -65,7 +65,7 @@ export const Contact = () => {
                         href="mailto:bonglamlouis@gmail.com" 
                         className="text-primary hover:text-primary/80 transition-colors break-all"
                       >
-                        bonglamlouis@gmail.com
+                        genzlogictechß@gmail.com
                       </a>
                     </div>
                   </div>
@@ -89,16 +89,20 @@ export const Contact = () => {
                 
                 {/* Action buttons */}
                 <div className="space-y-4">
-                  <Button variant="hero" size="lg" className="w-full text-lg py-6 group">
-                    <Calendar className="w-6 h-6 mr-3" />
-                    Book Free Strategy Call
-                    <ArrowRight className="w-6 h-6 ml-3 group-hover:translate-x-2 transition-transform" />
-                  </Button>
+                  <a href="tel:+233534726135">
+                    <Button variant="hero" size="lg" className="w-full text-lg py-6 group">
+                      <Calendar className="w-6 h-6 mr-3" />
+                      Book Free Strategy Call
+                      <ArrowRight className="w-6 h-6 ml-3 group-hover:translate-x-2 transition-transform" />
+                    </Button>
+                  </a>
                   
-                  <Button variant="neon" size="lg" className="w-full text-lg py-6 group">
-                    <MessageCircle className="w-6 h-6 mr-3" />
-                    Start WhatsApp Chat
-                  </Button>
+                  <a href="https://wa.me/233534726135" target="_blank" rel="noopener noreferrer">
+                    <Button variant="neon" size="lg" className="w-full text-lg py-6 group">
+                      <MessageCircle className="w-6 h-6 mr-3" />
+                      Start WhatsApp Chat
+                    </Button>
+                  </a>
                 </div>
               </div>
             </Card>
