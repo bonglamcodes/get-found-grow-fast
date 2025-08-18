@@ -66,7 +66,7 @@ export const Hero = () => {
             {/* Stats */}
             <div className="grid grid-cols-3 gap-8 pt-8">
               <div className="text-center">
-                <div className="text-4xl font-black text-primary text-glow">500%</div>
+                <div className="text-4xl font-black text-primary text-glow">100%</div>
                 <div className="text-sm text-muted-foreground">ROI Increase</div>
               </div>
               <div className="text-center">
@@ -75,7 +75,7 @@ export const Hero = () => {
               </div>
               <div className="text-center">
                 <div className="text-4xl font-black text-accent text-glow">∞</div>
-                <div className="text-sm text-muted-foreground">Possibilities</div>
+                <div className="text-sm text-muted-foreground">Success</div>
               </div>
             </div>
           </ScrollReveal>
