@@ -76,13 +76,13 @@ export const Services = () => {
             </div>
             
             <h2 className="text-5xl lg:text-7xl font-black mb-8">
-              <span className=" p-2 rounded-sm bg-clip-text text-white ">
+              <span className="text-gray-900">
                 Digital Solutions
               </span>
               <br />
             </h2>
             
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+            <p className="text-xl text-gray-700 max-w-3xl mx-auto">
               We don't just build websites and applications we create digital experiences that transform businesses and captivate audiences.
             </p>
           </div>
@@ -103,8 +103,8 @@ export const Services = () => {
                       <service.icon className="w-8 h-8 text-white" />
                     </div>
                     
-                    <h3 className="text-2xl font-bold mb-4 text-glow">{service.title}</h3>
-                    <p className="text-muted-foreground leading-relaxed mb-6">
+                    <h3 className="text-2xl font-bold mb-4 text-gray-900">{service.title}</h3>
+                    <p className="text-gray-700 leading-relaxed mb-6">
                       {service.description}
                     </p>
                     

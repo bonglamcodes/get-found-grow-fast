@@ -28,12 +28,12 @@ export const Contact = () => {
               <span className="text-sm font-semibold">Let's Launch</span>
             </div>
             
-            <h2 className="text-4xl sm:text-5xl lg:text-7xl font-black mb-8">
+            <h2 className="text-4xl sm:text-5xl lg:text-7xl font-black mb-8 text-gray-900">
               Ready to Dominate
               Your Market?
             </h2>
             
-            <p className="text-lg sm:text-xl text-muted-foreground max-w-3xl mx-auto">
+            <p className="text-lg sm:text-xl text-gray-700 max-w-3xl mx-auto">
               Join the digital revolution. Get your free consultation and discover how we can transform your business into a market leader.
             </p>
           </div>
@@ -45,10 +45,10 @@ export const Contact = () => {
             <Card className="glass border-glow p-8 sm:p-12 hover-lift w-full">
               <div className="space-y-8">
                 <div>
-                  <h3 className="text-2xl sm:text-3xl font-bold mb-4 text-glow">
+                  <h3 className="text-2xl sm:text-3xl font-bold mb-4 text-gray-900">
                     Get Your Free Strategy Session
                   </h3>
-                  <p className="text-muted-foreground text-base sm:text-lg">
+                  <p className="text-gray-700 text-base sm:text-lg">
                     Let's discuss your vision and create a roadmap to digital dominance.
                   </p>
                 </div>

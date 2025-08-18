@@ -79,12 +79,12 @@ export const CompaniesTransformed = () => {
               <span className="text-sm font-semibold">Success Stories</span>
             </div>
             
-            <h2 className="text-5xl lg:text-7xl font-black mb-8">
+            <h2 className="text-5xl lg:text-7xl font-black mb-8 text-gray-900">
               Companies We've Transformed
            
             </h2>
             
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+            <p className="text-xl text-gray-700 max-w-3xl mx-auto">
               From startups to established brands, we've helped companies across industries achieve extraordinary digital transformation.
             </p>
           </div>
@@ -96,25 +96,25 @@ export const CompaniesTransformed = () => {
             <Card className="glass border-glow text-center p-8 hover-lift">
               <Building className="w-12 h-12 text-primary mx-auto mb-4" />
               <div className="text-3xl font-black text-primary text-glow">200+</div>
-              <div className="text-sm text-muted-foreground">Companies Transformed</div>
+              <div className="text-sm text-gray-600">Companies Transformed</div>
             </Card>
             
             <Card className="glass border-glow text-center p-8 hover-lift">
               <TrendingUp className="w-12 h-12 text-secondary mx-auto mb-4" />
               <div className="text-3xl font-black text-secondary text-glow">350%</div>
-              <div className="text-sm text-muted-foreground">Average Growth</div>
+              <div className="text-sm text-gray-600">Average Growth</div>
             </Card>
             
             <Card className="glass border-glow text-center p-8 hover-lift">
               <Users className="w-12 h-12 text-accent mx-auto mb-4" />
               <div className="text-3xl font-black text-accent text-glow">1M+</div>
-              <div className="text-sm text-muted-foreground">Users Reached</div>
+              <div className="text-sm text-gray-600">Users Reached</div>
             </Card>
             
             <Card className="glass border-glow text-center p-8 hover-lift">
               <Globe className="w-12 h-12 text-primary mx-auto mb-4" />
               <div className="text-3xl font-black text-primary text-glow">50+</div>
-              <div className="text-sm text-muted-foreground">Countries</div>
+              <div className="text-sm text-gray-600">Countries</div>
             </Card>
           </div>
         </ScrollReveal>
@@ -132,8 +132,8 @@ export const CompaniesTransformed = () => {
                   <div className="text-4xl mb-4">{company.logo}</div>
                   
                   {/* Company Info */}
-                  <h3 className="text-xl font-bold mb-2 text-glow">{company.name}</h3>
-                  <p className="text-sm text-muted-foreground mb-4">{company.industry}</p>
+                  <h3 className="text-xl font-bold mb-2 text-gray-900">{company.name}</h3>
+                  <p className="text-sm text-gray-600 mb-4">{company.industry}</p>
                   
                   {/* Improvement */}
                   <div className={`inline-flex px-4 py-2 rounded-full gradient-${company.gradient} mb-4`}>
@@ -141,7 +141,7 @@ export const CompaniesTransformed = () => {
                   </div>
                   
                   {/* Description */}
-                  <p className="text-muted-foreground text-sm">{company.description}</p>
+                  <p className="text-gray-700 text-sm">{company.description}</p>
                   
                   {/* Rating */}
                   <div className="flex items-center gap-1 mt-4">
@@ -164,17 +164,17 @@ export const CompaniesTransformed = () => {
         <ScrollReveal delay={800}>
           <div className="text-center mt-20">
             <div className="glass border-glow rounded-3xl p-12 max-w-4xl mx-auto">
-              <h3 className="text-3xl font-bold mb-6 text-glow">
+              <h3 className="text-3xl font-bold mb-6 text-gray-900">
                 Ready to Join These Success Stories?
               </h3>
-              <p className="text-muted-foreground mb-8 text-lg">
+              <p className="text-gray-700 mb-8 text-lg">
                 Your company could be next on our transformation list. Let's make it happen.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <button className="gradient-hero text-white px-8 py-4 rounded-xl font-bold hover:scale-105 transition-smooth shadow-glow">
                   Start Your Transformation
                 </button>
-                <button className="glass border-glow text-foreground px-8 py-4 rounded-xl font-semibold hover:scale-105 transition-smooth">
+                <button className="glass border-glow text-gray-900 px-8 py-4 rounded-xl font-semibold hover:scale-105 transition-smooth">
                   View More Cases
                 </button>
               </div>
