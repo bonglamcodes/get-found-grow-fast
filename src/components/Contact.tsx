@@ -13,7 +13,7 @@ import {
 
 export const Contact = () => {
   return (
-    <section id="contact" className="py-32 relative overflow-hidden w-full">
+    <section id="contact" className="py-32 relative overflow-hidden w-full bg-gradient-to-br from-gray-50 to-white">
       {/* Background glow effects */}
       <div className="absolute inset-0">
         <div className="absolute top-20 left-20 w-96 h-96 gradient-primary rounded-full blur-3xl opacity-20 floating"></div>

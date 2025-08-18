@@ -60,7 +60,7 @@ const services = [
 
 export const Services = () => {
   return (
-    <section id="services" className="py-32 relative overflow-hidden">
+    <section id="services" className="py-32 relative overflow-hidden bg-gradient-to-br from-white to-gray-50/80">
       {/* Background Effects */}
       <div className="absolute inset-0">
         <div className="absolute top-0 left-1/4 w-64 h-64 gradient-primary rounded-full blur-3xl opacity-10 floating"></div>
