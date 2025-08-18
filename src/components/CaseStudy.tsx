@@ -23,11 +23,10 @@ export const CaseStudy = () => {
             
             <h2 className="text-5xl lg:text-7xl font-black mb-8">
               Real Impact
-              
             </h2>
             
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              See how we transformed Rose Fabric Mall from a local business to a digital powerhouse in just 3 months.
+              Discover how we helped Rose Fabric Mall evolve from a small local shop into a thriving online store with booming sales and nationwide reach.
             </p>
           </div>
         </ScrollReveal>
@@ -41,26 +40,40 @@ export const CaseStudy = () => {
                 <Quote className="w-12 h-12 text-primary" />
                 <div>
                   <h3 className="text-3xl font-bold text-glow">Rose Fabric Mall</h3>
-                  <p className="text-muted-foreground">Clothing & Beauty • United Kingdom</p>
+                  <p className="text-muted-foreground">Fashion & Beauty • United Kingdom</p>
                 </div>
-                <Button variant="neon" size="sm" className="ml-auto">
-                  <ExternalLink className="w-4 h-4 mr-2" />
-                  Visit Site
-                </Button>
+                <a
+                  href="https://rosefabricmall.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button variant="neon" size="sm" className="ml-auto">
+                    <ExternalLink className="w-4 h-4 mr-2" />
+                    Visit Site
+                  </Button>
+                </a>
               </div>
               
               {/* Story */}
               <Card className="glass border-glow p-8">
                 <p className="text-lg leading-relaxed mb-6">
-                  "Rose Fabric Mall saw a <span className="text-secondary font-bold text-glow">50% increase in customer leads within 3 months</span> after we built her a cutting-edge, mobile-optimized website."
+                  "Within just <span className="text-secondary font-bold text-glow">3 months</span>, 
+                  Rose Fabric Mall’s online store boosted sales by <span className="text-secondary font-bold text-glow">200%</span> 
+                  and expanded their reach far beyond local customers."
                 </p>
                 
                 <p className="text-muted-foreground mb-6">
-                  We created a sleek platform that made it effortless for customers to browse services, check prices, and connect directly. Our social media integration and Google optimization strategy resulted in explosive growth.
+                  We transformed their physical shop into a fully functional e-commerce platform, complete with product browsing, secure checkout, and mobile-first design. Our SEO, social media integration, and analytics strategies helped them capture a national audience and build lasting online presence.
                 </p>
                 
                 <div className="flex flex-wrap gap-2 mb-6">
-                  {['SEO Optimization', 'Social Integration', 'Mobile-First Design', 'Analytics Setup'].map((tag) => (
+                  {[
+                    'E-commerce Storefront', 
+                    'SEO Growth', 
+                    'Mobile-Optimized Design', 
+                    'Social Media Integration', 
+                    'Analytics & Insights'
+                  ].map((tag) => (
                     <span key={tag} className="glass border-glow px-3 py-1 rounded-full text-sm">
                       {tag}
                     </span>
@@ -93,14 +106,14 @@ export const CaseStudy = () => {
                 <div className="absolute inset-0 gradient-secondary rounded-3xl blur-2xl opacity-30 group-hover:opacity-50 transition-opacity"></div>
                 <img 
                   src={ecommerceImage}
-                  alt="Rose Fabric Mall website showcase"
+                  alt="Rose Fabric Mall online store showcase"
                   className="relative rounded-3xl shadow-glow hover-lift border border-primary/20"
                 />
                 
                 {/* Floating Stats */}
                 <div className="absolute -top-4 -right-4 glass border-glow rounded-2xl p-4 floating">
-                  <div className="text-2xl font-bold text-secondary text-glow">50%</div>
-                  <div className="text-xs text-muted-foreground">Lead Increase</div>
+                  <div className="text-2xl font-bold text-secondary text-glow">200%</div>
+                  <div className="text-xs text-muted-foreground">Sales Growth</div>
                 </div>
               </div>
               
@@ -108,26 +121,26 @@ export const CaseStudy = () => {
               <div className="grid grid-cols-2 gap-4">
                 <Card className="glass border-glow p-6 text-center hover-lift">
                   <TrendingUp className="w-8 h-8 text-primary mx-auto mb-2" />
-                  <div className="text-2xl font-bold text-primary text-glow">50%</div>
-                  <div className="text-sm text-muted-foreground">More Leads</div>
+                  <div className="text-2xl font-bold text-primary text-glow">200%</div>
+                  <div className="text-sm text-muted-foreground">More Sales</div>
                 </Card>
                 
                 <Card className="glass border-glow p-6 text-center hover-lift">
                   <Users className="w-8 h-8 text-secondary mx-auto mb-2" />
-                  <div className="text-2xl font-bold text-secondary text-glow">3</div>
+                  <div className="text-2xl font-bold text-secondary text-glow">5</div>
                   <div className="text-sm text-muted-foreground">Months</div>
                 </Card>
                 
                 <Card className="glass border-glow p-6 text-center hover-lift">
                   <ShoppingBag className="w-8 h-8 text-accent mx-auto mb-2" />
-                  <div className="text-2xl font-bold text-accent text-glow">200%</div>
-                  <div className="text-sm text-muted-foreground">Sales Growth</div>
+                  <div className="text-2xl font-bold text-accent text-glow">+500</div>
+                  <div className="text-sm text-muted-foreground">New Customers</div>
                 </Card>
                 
                 <Card className="glass border-glow p-6 text-center hover-lift">
                   <Zap className="w-8 h-8 text-primary mx-auto mb-2" />
                   <div className="text-2xl font-bold text-primary text-glow">24/7</div>
-                  <div className="text-sm text-muted-foreground">Working</div>
+                  <div className="text-sm text-muted-foreground">Online Presence</div>
                 </Card>
               </div>
               

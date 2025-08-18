@@ -16,44 +16,41 @@ import {
 } from "lucide-react";
 import portfolioImage from "@/assets/portfolio-devices.jpg";
 import dashboardImage from "@/assets/dashboard-analytics.jpg";
-
 const services = [
   {
     icon: Rocket,
-    title: "Lightning-Fast Websites",
-    description: "Blazing fast, mobile-first websites that load in under 2 seconds and convert like crazy.",
-    color: "primary",
-    image: portfolioImage
+    title: "Software Engineering",
+    description: "Custom, scalable software solutions designed to solve complex business challenges with modern technologies.",
+    color: "primary"
   },
   {
     icon: ShoppingCart,
-    title: "Modern E-commerce",
-    description: "Next-gen online stores with AI-powered recommendations, one-click checkout, and real-time inventory.",
+    title: "E-commerce",
+    description: "Future-ready online stores with one-click checkout, personalized shopping, and AI-powered recommendations.",
     color: "secondary"
   },
   {
-    icon: TrendingUp,
-    title: "SEO Domination",
-    description: "Rank #1 on Google with our advanced SEO strategies and real-time performance tracking.",
-    color: "accent",
-    image: dashboardImage
+    icon: Globe,
+    title: "Web & Mobile Apps",
+    description: "High-performance applications for web and mobile, built to deliver seamless user experiences everywhere.",
+    color: "accent"
   },
   {
-    icon: Share2,
-    title: "Social Media Integration",
-    description: "Connect all your social platforms for viral growth and instant customer engagement.",
+    icon: TrendingUp,
+    title: "Product Management",
+    description: "From strategy to launch — agile product roadmaps that ensure your idea turns into a market success.",
     color: "primary"
   },
   {
     icon: BarChart3,
-    title: "Smart Analytics",
-    description: "AI-powered insights that predict customer behavior and maximize your revenue.",
+    title: "Cloud & DevOps",
+    description: "AWS deployments, CI/CD pipelines, and scalable infrastructure engineered for growth and reliability.",
     color: "secondary"
   },
   {
-    icon: Shield,
-    title: "Enterprise Security",
-    description: "Bank-level security with advanced encryption and real-time threat protection.",
+    icon: Share2,
+    title: "API & System Integration",
+    description: "Seamlessly connect systems, automate workflows, and integrate third-party APIs for smarter operations.",
     color: "accent"
   }
 ];

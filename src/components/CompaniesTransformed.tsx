@@ -11,52 +11,52 @@ import {
 } from "lucide-react";
 
 const transformedCompanies = [
-  {
+ {
     name: "TechStart",
     industry: "Tech Startup",
     logo: "🚀",
-    improvement: "400% lead increase",
-    description: "From zero to hero in 6 months",
+    solution: "We help startups launch scalable web and mobile apps, with modern UI/UX and API integrations.",
+    description: "Turning fresh ideas into powerful digital products.",
     gradient: "primary"
   },
   {
-    name: "EcoShop",
+    name: "Online Shop",
     industry: "E-commerce",
-    logo: "🌱",
-    improvement: "300% sales boost",
-    description: "Sustainable fashion goes viral",
+    logo: "🛒",
+    solution: "We build sleek online stores with secure payments, inventory management, and social media integration.",
+    description: "Helping eco-brands sell smarter and reach more customers online.",
     gradient: "secondary"
   },
   {
     name: "FinanceFlow",
     industry: "Fintech",
     logo: "💰",
-    improvement: "200% conversions",
-    description: "Modern banking redefined",
+    solution: "We create secure fintech solutions with dashboards, real-time data, and easy customer onboarding.",
+    description: "Simplifying digital banking and financial services.",
     gradient: "accent"
   },
   {
     name: "HealthHub",
     industry: "Healthcare",
-    logo: "⚕️",
-    improvement: "500% appointments",
-    description: "Digital health revolution",
+    logo: "🏥 ",
+    solution: "We design patient-friendly booking systems, telemedicine platforms, and digital health records.",
+    description: "Making healthcare accessible anytime, anywhere.",
     gradient: "primary"
   },
   {
     name: "EduPlatform",
     industry: "Education",
     logo: "🎓",
-    improvement: "250% enrollments",
-    description: "Learning without limits",
+    solution: "We build e-learning portals, school management systems, and interactive virtual classrooms.",
+    description: "Bringing modern education online for schools and learners.",
     gradient: "secondary"
   },
   {
     name: "FoodieExpress",
     industry: "Food Delivery",
     logo: "🍕",
-    improvement: "350% orders",
-    description: "Taste meets technology",
+    solution: "We create delivery apps with GPS tracking, order management, and secure online payments.",
+    description: "Connecting food businesses with hungry customers seamlessly.",
     gradient: "accent"
   }
 ];
@@ -76,16 +76,16 @@ export const CompaniesTransformed = () => {
           <div className="text-center mb-20">
             <div className="inline-flex items-center gap-3 bg-gray-100 border border-gray-300 rounded-full px-6 py-3 mb-8">
               <Award className="w-5 h-5 text-primary" />
-              <span className="text-sm font-semibold text-gray-800">Success Stories</span>
+              <span className="text-sm font-semibold text-gray-800">Transforming Businesses</span>
             </div>
             
             <h2 className="text-5xl lg:text-7xl font-black mb-8 text-gray-900">
-              Companies We've Transformed
+              Industries We Transform
            
             </h2>
             
             <p className="text-xl text-gray-700 max-w-3xl mx-auto">
-              From startups to established brands, we've helped companies across industries achieve extraordinary digital transformation.
+            From tech startups to healthcare, education, and beyond — we empower businesses across sectors to unlock growth, efficiency, and innovation through technology.
             </p>
           </div>
         </ScrollReveal>
@@ -95,13 +95,13 @@ export const CompaniesTransformed = () => {
           <div className="grid md:grid-cols-4 gap-8 mb-20">
             <Card className="bg-white/80 border border-gray-200 shadow-md text-center p-8 hover-lift">
               <Building className="w-12 h-12 text-primary mx-auto mb-4" />
-              <div className="text-3xl font-black text-primary text-glow">200+</div>
+              <div className="text-3xl font-black text-primary text-glow">10+</div>
               <div className="text-sm text-gray-600">Companies Transformed</div>
             </Card>
             
             <Card className="bg-white/80 border border-gray-200 shadow-md text-center p-8 hover-lift">
               <TrendingUp className="w-12 h-12 text-secondary mx-auto mb-4" />
-              <div className="text-3xl font-black text-secondary text-glow">350%</div>
+              <div className="text-3xl font-black text-secondary text-glow">85%</div>
               <div className="text-sm text-gray-600">Average Growth</div>
             </Card>
             
@@ -113,7 +113,7 @@ export const CompaniesTransformed = () => {
             
             <Card className="bg-white/80 border border-gray-200 shadow-md text-center p-8 hover-lift">
               <Globe className="w-12 h-12 text-primary mx-auto mb-4" />
-              <div className="text-3xl font-black text-primary text-glow">50+</div>
+              <div className="text-3xl font-black text-primary text-glow">3+</div>
               <div className="text-sm text-gray-600">Countries</div>
             </Card>
           </div>
@@ -165,17 +165,18 @@ export const CompaniesTransformed = () => {
           <div className="text-center mt-20">
             <div className="bg-white/90 border border-gray-200 shadow-lg rounded-3xl p-12 max-w-4xl mx-auto">
               <h3 className="text-3xl font-bold mb-6 text-gray-900">
-                Ready to Join These Success Stories?
+                Your Digital Transformation Starts Here
               </h3>
               <p className="text-gray-700 mb-8 text-lg">
-                Your company could be next on our transformation list. Let's make it happen.
+              Join the ranks of businesses embracing digital growth
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <button className="gradient-hero text-white px-8 py-4 rounded-xl font-bold hover:scale-105 transition-smooth shadow-glow">
-                  Start Your Transformation
+                  Get Started
                 </button>
                 <button className="bg-white/90 border border-gray-300 text-gray-900 px-8 py-4 rounded-xl font-semibold hover:scale-105 transition-smooth shadow-md">
-                  View More Cases
+                  
+                  Contact Us
                 </button>
               </div>
             </div>

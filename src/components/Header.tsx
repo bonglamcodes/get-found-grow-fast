@@ -8,23 +8,25 @@ export const Header = () => {
   
   const navItems = [
     { name: "Services", href: "#services" },
+      { name: "Contact", href: "#contact" },
     { name: "Portfolio", href: "#portfolio" },
     { name: "Case Studies", href: "#case-studies" },
-    { name: "Contact", href: "#contact" },
+  
   ];
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 glass border-b border-white/10">
       <div className="container mx-auto px-6">
         <div className="flex items-center justify-between h-20">
-          <div className="flex items-center gap-3">
-            <img 
-             src={genzlogo} 
-              alt="GenzLogic" 
-              className="w-12  rounded-sm h-12"
-            />
-           
-          </div>
+         <div className="flex items-center gap-3">
+  <a href="#">
+    <img 
+      src={genzlogo} 
+      alt="GenzLogic" 
+      className="w-12 rounded-sm h-12"
+    />
+  </a>
+</div>
           
           <nav className="hidden md:flex items-center gap-8">
             {navItems.map((item) => (

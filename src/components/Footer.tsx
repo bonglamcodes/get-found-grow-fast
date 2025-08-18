@@ -2,96 +2,101 @@ import { Mail, Phone, Instagram, Youtube, Facebook } from "lucide-react";
 
 export const Footer = () => {
   return (
-    <footer className="bg-primary text-primary-foreground">
+    <footer className="bg-gradient-to-br from-gray-900 via-black to-gray-950 text-primary-foreground">
       <div className="container mx-auto px-6 py-12">
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {/* Company Info */}
-          <div className="lg:col-span-2">
-            <div className="flex items-center gap-3 mb-4">
-              <img 
-                src="/lovable-uploads/1a725d54-1cf7-4edb-a792-f02965ebf726.png"  
-                alt="GenzLogic" 
-                className="w-10 h-10  rounded-full"
-              />
-            </div>
-            <p className="text-primary-foreground/80 mb-6 max-w-md">
-              Empowering businesses through smart andmodern technology solutions. We help small to mid-scale businesses build their online presence and grow their customer base.
-            </p>
-            
-            <div className="space-y-2">
-              <div className="flex items-center gap-3 text-sm">
+       {/* Top Section: Logo + About */}
+<div className="flex flex-col items-center text-center max-w-2xl mx-auto">
+  <a href="#" className="mb-4">
+    <img
+      src="/lovable-uploads/1a725d54-1cf7-4edb-a792-f02965ebf726.png"
+      alt="GenzLogic"
+      className="w-12 h-12 rounded-full"
+    />
+  </a>
+  <p className="text-primary-foreground/80 mb-6">
+    Empowering businesses with smart and modern technology solutions.
+  </p>
+</div>
+
+        {/* Middle Section: Links */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 text-center md:text-left mt-10">
+          {/* Contact */}
+          <div>
+            <h4 className="font-semibold text-lg mb-4">Contact</h4>
+            <div className="space-y-3 text-sm text-primary-foreground/80">
+              <div className="flex justify-center md:justify-start items-center gap-2">
                 <Mail className="w-4 h-4" />
-                <a href="mailto:bonglamlouis@gmail.com" className="hover:text-primary-foreground/80">
+                <a href="mailto:genzlogic@gmail.com" className="hover:text-primary-foreground transition">
                   genzlogic@gmail.com
                 </a>
               </div>
-              <div className="flex items-center gap-3 text-sm">
+              <div className="flex justify-center md:justify-start items-center gap-2">
                 <Phone className="w-4 h-4" />
-                <a href="tel:+233534726135" className="hover:text-primary-foreground/80">
+                <a href="tel:+233534726135" className="hover:text-primary-foreground transition">
                   +233 53 4726 135
                 </a>
               </div>
             </div>
           </div>
-          
+
           {/* Services */}
           <div>
-            <h4 className="font-semibold mb-4">Services</h4>
+            <h4 className="font-semibold text-lg mb-4">Services</h4>
             <ul className="space-y-2 text-sm text-primary-foreground/80">
-              <li><a href="#services" className="hover:text-primary-foreground">Website Development</a></li>
-              <li><a href="#services" className="hover:text-primary-foreground"> Mobile App Solutions</a></li>
-                 <li><a href="#services" className="hover:text-primary-foreground"> Business Dashboards</a></li>
-                      <li><a href="#services" className="hover:text-primary-foreground"> Technology Solutions</a></li>
-
+              <li><a href="#services" className="hover:text-primary-foreground transition">Software Engineering</a></li>
+              <li><a href="#services" className="hover:text-primary-foreground transition">E-commerce Solutions</a></li>
+              <li><a href="#services" className="hover:text-primary-foreground transition">Web & Mobile Apps</a></li>
+              <li><a href="#services" className="hover:text-primary-foreground transition">Product Management</a></li>
+              <li><a href="#services" className="hover:text-primary-foreground transition">Cloud & DevOps</a></li>
+              <li><a href="#services" className="hover:text-primary-foreground transition">API & System Integration</a></li>
             </ul>
           </div>
-          
+
           {/* Quick Links */}
           <div>
-            <h4 className="font-semibold mb-4">Quick Links</h4>
+            <h4 className="font-semibold text-lg mb-4">Quick Links</h4>
             <ul className="space-y-2 text-sm text-primary-foreground/80">
-              <li><a href="#services" className="hover:text-primary-foreground">Our Services</a></li>
-              <li><a href="#case-studies" className="hover:text-primary-foreground">Case Studies</a></li>
-              <li><a href="#contact" className="hover:text-primary-foreground">Contact Us</a></li>
-              <li><a href="#contact" className="hover:text-primary-foreground">Free Consultation</a></li>
+              <li><a href="#services" className="hover:text-primary-foreground transition">Our Services</a></li>
+              <li><a href="#case-studies" className="hover:text-primary-foreground transition">Case Studies</a></li>
+              <li><a href="#contact" className="hover:text-primary-foreground transition">Contact Us</a></li>
+              <li><a href="#contact" className="hover:text-primary-foreground transition">Free Consultation</a></li>
             </ul>
           </div>
         </div>
-        
-        {/* Divider */}
-       
 
-        {/* Social Media Icons at the Bottom */}
-        <div className="mt-10 mb-10 flex justify-center gap-6">
+        {/* Social Media Icons */}
+        <div className="flex justify-center gap-6 mt-12">
           <a 
-            href="https://www.instagram.com/genz_logic/" 
-            target="_blank" 
-            rel="noopener noreferrer" 
+            href="https://www.instagram.com/genz_logic/"
+            target="_blank"
+            rel="noopener noreferrer"
             className="transition-transform hover:scale-110"
             style={{ color: "#E1306C" }}
           >
-            <Instagram className="w-10 h-10" />
+            <Instagram className="w-8 h-8" />
           </a>
           <a 
-            href="https://youtube.com" 
-            target="_blank" 
-            rel="noopener noreferrer" 
+            href="https://youtube.com"
+            target="_blank"
+            rel="noopener noreferrer"
             className="transition-transform hover:scale-110"
             style={{ color: "#FF0000" }}
           >
-            <Youtube className="w-10 h-10" />
+            <Youtube className="w-8 h-8" />
           </a>
           <a 
-            href="https://facebook.com" 
-            target="_blank" 
-            rel="noopener noreferrer" 
+            href="https://facebook.com"
+            target="_blank"
+            rel="noopener noreferrer"
             className="transition-transform hover:scale-110"
             style={{ color: "#1877F2" }}
           >
-            <Facebook className="w-10 h-10" />
+            <Facebook className="w-8 h-8" />
           </a>
         </div>
-         <div className="border-t border-primary-foreground/20 mt-8 pt-8 text-center text-sm text-primary-foreground/60">
+
+        {/* Bottom Section */}
+        <div className="border-t border-primary-foreground/20 mt-10 pt-6 text-center text-sm text-primary-foreground/60">
           <p>&copy; 2025 GenzLogic. All rights reserved.</p>
         </div>
       </div>
