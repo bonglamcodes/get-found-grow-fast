@@ -74,9 +74,9 @@ export const CompaniesTransformed = () => {
       <div className="container mx-auto px-6 relative z-10">
         <ScrollReveal>
           <div className="text-center mb-20">
-            <div className="inline-flex items-center gap-3 glass rounded-full px-6 py-3 border-glow mb-8">
+            <div className="inline-flex items-center gap-3 bg-gray-100 border border-gray-300 rounded-full px-6 py-3 mb-8">
               <Award className="w-5 h-5 text-primary" />
-              <span className="text-sm font-semibold">Success Stories</span>
+              <span className="text-sm font-semibold text-gray-800">Success Stories</span>
             </div>
             
             <h2 className="text-5xl lg:text-7xl font-black mb-8 text-gray-900">
@@ -93,25 +93,25 @@ export const CompaniesTransformed = () => {
         {/* Stats Overview */}
         <ScrollReveal delay={200}>
           <div className="grid md:grid-cols-4 gap-8 mb-20">
-            <Card className="glass border-glow text-center p-8 hover-lift">
+            <Card className="bg-white/80 border border-gray-200 shadow-md text-center p-8 hover-lift">
               <Building className="w-12 h-12 text-primary mx-auto mb-4" />
               <div className="text-3xl font-black text-primary text-glow">200+</div>
               <div className="text-sm text-gray-600">Companies Transformed</div>
             </Card>
             
-            <Card className="glass border-glow text-center p-8 hover-lift">
+            <Card className="bg-white/80 border border-gray-200 shadow-md text-center p-8 hover-lift">
               <TrendingUp className="w-12 h-12 text-secondary mx-auto mb-4" />
               <div className="text-3xl font-black text-secondary text-glow">350%</div>
               <div className="text-sm text-gray-600">Average Growth</div>
             </Card>
             
-            <Card className="glass border-glow text-center p-8 hover-lift">
+            <Card className="bg-white/80 border border-gray-200 shadow-md text-center p-8 hover-lift">
               <Users className="w-12 h-12 text-accent mx-auto mb-4" />
               <div className="text-3xl font-black text-accent text-glow">1M+</div>
               <div className="text-sm text-gray-600">Users Reached</div>
             </Card>
             
-            <Card className="glass border-glow text-center p-8 hover-lift">
+            <Card className="bg-white/80 border border-gray-200 shadow-md text-center p-8 hover-lift">
               <Globe className="w-12 h-12 text-primary mx-auto mb-4" />
               <div className="text-3xl font-black text-primary text-glow">50+</div>
               <div className="text-sm text-gray-600">Countries</div>
@@ -123,7 +123,7 @@ export const CompaniesTransformed = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {transformedCompanies.map((company, index) => (
             <ScrollReveal key={company.name} delay={index * 100}>
-              <Card className="glass border-glow hover-lift p-8 group relative overflow-hidden">
+              <Card className="bg-white/80 border border-gray-200 shadow-md hover-lift p-8 group relative overflow-hidden">
                 {/* Background Gradient */}
                 <div className={`absolute inset-0 gradient-${company.gradient} opacity-5 group-hover:opacity-15 transition-opacity`}></div>
                 
@@ -163,7 +163,7 @@ export const CompaniesTransformed = () => {
         {/* Bottom CTA */}
         <ScrollReveal delay={800}>
           <div className="text-center mt-20">
-            <div className="glass border-glow rounded-3xl p-12 max-w-4xl mx-auto">
+            <div className="bg-white/90 border border-gray-200 shadow-lg rounded-3xl p-12 max-w-4xl mx-auto">
               <h3 className="text-3xl font-bold mb-6 text-gray-900">
                 Ready to Join These Success Stories?
               </h3>
@@ -174,7 +174,7 @@ export const CompaniesTransformed = () => {
                 <button className="gradient-hero text-white px-8 py-4 rounded-xl font-bold hover:scale-105 transition-smooth shadow-glow">
                   Start Your Transformation
                 </button>
-                <button className="glass border-glow text-gray-900 px-8 py-4 rounded-xl font-semibold hover:scale-105 transition-smooth">
+                <button className="bg-white/90 border border-gray-300 text-gray-900 px-8 py-4 rounded-xl font-semibold hover:scale-105 transition-smooth shadow-md">
                   View More Cases
                 </button>
               </div>

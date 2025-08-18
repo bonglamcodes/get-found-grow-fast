@@ -23,9 +23,9 @@ export const Contact = () => {
       <div className="container mx-auto px-4 sm:px-6 relative z-10 w-full max-w-full">
         <ScrollReveal>
           <div className="text-center mb-20 px-2">
-            <div className="inline-flex items-center gap-3 glass rounded-full px-6 py-3 border-glow mb-8">
+            <div className="inline-flex items-center gap-3 bg-gray-100 border border-gray-300 rounded-full px-6 py-3 mb-8">
               <Rocket className="w-5 h-5 text-primary" />
-              <span className="text-sm font-semibold">Let's Launch</span>
+              <span className="text-sm font-semibold text-gray-800">Let's Launch</span>
             </div>
             
             <h2 className="text-4xl sm:text-5xl lg:text-7xl font-black mb-8 text-gray-900">
@@ -42,7 +42,7 @@ export const Contact = () => {
         {/* Contact and package section */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-start">
           <ScrollReveal delay={200}>
-            <Card className="glass border-glow p-8 sm:p-12 hover-lift w-full">
+            <Card className="bg-white/90 border border-gray-200 shadow-lg p-8 sm:p-12 hover-lift w-full">
               <div className="space-y-8">
                 <div>
                   <h3 className="text-2xl sm:text-3xl font-bold mb-4 text-gray-900">
@@ -55,7 +55,7 @@ export const Contact = () => {
                 
                 <div className="space-y-6">
                   {/* Email */}
-                  <div className="flex items-center gap-4 p-6 glass border-glow rounded-2xl hover-lift group w-full">
+                  <div className="flex items-center gap-4 p-6 bg-white/90 border border-gray-200 shadow-md rounded-2xl hover-lift group w-full">
                     <div className="flex items-center justify-center w-16 h-16 gradient-primary rounded-2xl group-hover:scale-110 transition-transform">
                       <Mail className="w-8 h-8 text-white" />
                     </div>
@@ -71,7 +71,7 @@ export const Contact = () => {
                   </div>
                   
                   {/* Phone */}
-                  <div className="flex items-center gap-4 p-6 glass border-glow rounded-2xl hover-lift group w-full">
+                  <div className="flex items-center gap-4 p-6 bg-white/90 border border-gray-200 shadow-md rounded-2xl hover-lift group w-full">
                     <div className="flex items-center justify-center w-16 h-16 gradient-secondary rounded-2xl group-hover:scale-110 transition-transform">
                       <Phone className="w-8 h-8 text-white" />
                     </div>

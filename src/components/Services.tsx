@@ -70,9 +70,9 @@ export const Services = () => {
       <div className="container mx-auto px-6 relative z-10">
         <ScrollReveal>
           <div className="text-center mb-20">
-            <div className="inline-flex items-center gap-3 glass rounded-full px-6 py-3 border-glow mb-8">
+            <div className="inline-flex items-center gap-3 bg-gray-100 border border-gray-300 rounded-full px-6 py-3 mb-8">
               <Zap className="w-5 h-5 text-accent" />
-              <span className="text-sm font-semibold">Our Superpowers</span>
+              <span className="text-sm font-semibold text-gray-800">Our Superpowers</span>
             </div>
             
             <h2 className="text-5xl lg:text-7xl font-black mb-8">
@@ -91,7 +91,7 @@ export const Services = () => {
         <div className="grid lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
             <ScrollReveal key={service.title} delay={index * 150}>
-              <Card className={`glass border-glow hover-lift p-8 group relative overflow-hidden ${
+              <Card className={`bg-white/80 border border-gray-200 shadow-md hover-lift p-8 group relative overflow-hidden ${
                 service.image ? 'lg:col-span-2' : ''
               }`}>
                 {/* Background Gradient */}
