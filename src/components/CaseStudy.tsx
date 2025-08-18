@@ -6,7 +6,7 @@ import ecommerceImage from "@/assets/ecommerce-showcase.jpg";
 
 export const CaseStudy = () => {
   return (
-    <section className="py-32 relative overflow-hidden">
+    <section className="py-32 relative overflow-hidden gradient-dark">
       {/* Background Effects */}
       <div className="absolute inset-0">
         <div className="absolute top-20 left-20 w-96 h-96 gradient-secondary rounded-full blur-3xl opacity-10 floating"></div>

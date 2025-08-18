@@ -63,7 +63,7 @@ const transformedCompanies = [
 
 export const CompaniesTransformed = () => {
   return (
-    <section className="py-32 relative overflow-hidden">
+    <section className="py-32 relative overflow-hidden bg-gradient-to-br from-card/50 to-muted/30">
       {/* Background Effects */}
       <div className="absolute inset-0">
         <div className="absolute top-10 left-10 w-72 h-72 gradient-primary rounded-full blur-3xl opacity-10 floating"></div>
