@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ScrollReveal } from "@/components/ui/scroll-reveal";
-import { ArrowRight, Sparkles, Play, Zap } from "lucide-react";
+import { ArrowRight, Sparkles, Play, Zap, PhoneCallIcon } from "lucide-react";
 import heroImage from "@/assets/hero-futuristic.jpg";
 
 export const Hero = () => {
@@ -58,7 +58,7 @@ export const Hero = () => {
                 size="lg"
                 className="text-lg py-6 px-8 group"
               >
-                <Play className="w-5 h-5 mr-3" />
+                <PhoneCallIcon className="w-5 h-5 mr-3" />
                 Contact Us
               </Button>
             </div>
