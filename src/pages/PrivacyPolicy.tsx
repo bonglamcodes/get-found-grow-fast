@@ -8,7 +8,7 @@ const PrivacyPolicy = () => {
     <div className="min-h-screen bg-gradient-to-br from-background to-muted/30">
       <Header />
       {/* Header */}
-      <section className="py-20 bg-gradient-to-br from-primary/10 to-secondary/10">
+      <section className="pt-32 pb-20 bg-gradient-to-br from-primary/10 to-secondary/10">
         <div className="container mx-auto px-6">
           <ScrollReveal>
             <div className="text-center">
