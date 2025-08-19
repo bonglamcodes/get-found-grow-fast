@@ -45,20 +45,24 @@ export const Hero = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-6 sm:items-center justify-center sm:justify-start">
-              <Button variant="hero" size="lg" className="group text-lg py-6 px-8">
-                <Zap className="w-6 h-6 mr-3" />
-                Get Started
-                <ArrowRight className="w-6 h-6 ml-3 group-hover:translate-x-2 transition-transform" />
-              </Button>
-              
-              <a 
-                href="tel:+233534726135"
-                className="inline-flex items-center justify-center text-lg py-6 px-8 group bg-gradient-to-r from-primary to-secondary text-white rounded-xl font-bold shadow-glow hover:scale-105 transition-smooth border border-primary/20"
-              >
-                <PhoneCallIcon className="w-5 h-5 mr-3" />
-                Contact Us
-              </a>
-            </div>
+  <Button variant="hero" size="lg" className="group text-lg py-6 px-8">
+    <Zap className="w-6 h-6 mr-3" />
+    Get Started
+    <ArrowRight className="w-6 h-6 ml-3 group-hover:translate-x-2 transition-transform" />
+  </Button>
+
+  <Button
+    as="a"
+    href="#contact" // link to contact section instead of tel
+    variant="neon"
+    size="lg"
+    className="group text-lg py-6 px-8"
+  >
+    <PhoneCallIcon className="w-5 h-5 mr-3" />
+    Contact Us
+  </Button>
+</div>
+
             
             {/* Stats */}
             <div className="grid grid-cols-3 gap-8 pt-8">
