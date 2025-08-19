@@ -17,7 +17,7 @@ const PrivacyPolicy = () => {
                 <span className="text-sm font-semibold text-gray-800">Your Privacy Matters</span>
               </div>
               
-              <h1 className="text-4xl lg:text-6xl font-black mb-6 text-gray-900">
+              <h1 className="text-4xl lg:text-6xl font-black mb-6 text-black">
                 Privacy Policy
               </h1>
               
