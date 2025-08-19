@@ -51,16 +51,13 @@ export const Hero = () => {
                 <ArrowRight className="w-6 h-6 ml-3 group-hover:translate-x-2 transition-transform" />
               </Button>
               
-              <Button 
-                as="a"
+              <a 
                 href="tel:+233534726135"
-                variant="neon"
-                size="lg"
-                className="text-lg py-6 px-8 group"
+                className="inline-flex items-center justify-center text-lg py-6 px-8 group bg-gradient-to-r from-primary to-secondary text-white rounded-xl font-bold shadow-glow hover:scale-105 transition-smooth border border-primary/20"
               >
                 <PhoneCallIcon className="w-5 h-5 mr-3" />
                 Contact Us
-              </Button>
+              </a>
             </div>
             
             {/* Stats */}

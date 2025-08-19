@@ -60,6 +60,7 @@ export const Footer = () => {
               <li><a href="#case-studies" className="hover:text-primary-foreground transition">Case Studies</a></li>
               <li><a href="#contact" className="hover:text-primary-foreground transition">Contact Us</a></li>
               <li><a href="#contact" className="hover:text-primary-foreground transition">Free Consultation</a></li>
+              <li><a href="/privacy-policy" className="hover:text-primary-foreground transition">Privacy Policy</a></li>
             </ul>
           </div>
         </div>

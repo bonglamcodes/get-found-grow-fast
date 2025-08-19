@@ -88,39 +88,24 @@ export const Services = () => {
         <div className="grid lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
             <ScrollReveal key={service.title} delay={index * 150}>
-              <Card className={`bg-white/80 border border-gray-200 shadow-md hover-lift p-8 group relative overflow-hidden ${
-                service.image ? 'lg:col-span-2' : ''
-              }`}>
+              <Card className="bg-white/80 border border-gray-200 shadow-md hover-lift p-8 group relative overflow-hidden">
                 {/* Background Gradient */}
                 <div className={`absolute inset-0 gradient-${service.color} opacity-5 group-hover:opacity-10 transition-opacity`}></div>
                 
-                <div className={`grid ${service.image ? 'lg:grid-cols-2' : ''} gap-6 items-center relative z-10`}>
-                  <div>
-                    <div className={`inline-flex p-4 rounded-2xl gradient-${service.color} mb-6 shadow-glow`}>
-                      <service.icon className="w-8 h-8 text-white" />
-                    </div>
-                    
-                    <h3 className="text-2xl font-bold mb-4 text-gray-900">{service.title}</h3>
-                    <p className="text-gray-700 leading-relaxed mb-6">
-                      {service.description}
-                    </p>
-                    
-                    <Button variant="neon" size="sm" className="group/btn">
-                      Learn More
-                      <ArrowRight className="w-4 h-4 ml-2 group-hover/btn:translate-x-1 transition-transform" />
-                    </Button>
+                <div className="relative z-10">
+                  <div className={`inline-flex p-4 rounded-2xl gradient-${service.color} mb-6 shadow-glow`}>
+                    <service.icon className="w-8 h-8 text-white" />
                   </div>
                   
-                  {service.image && (
-                    <div className="relative">
-                      <div className={`absolute inset-0 gradient-${service.color} rounded-2xl blur-xl opacity-20`}></div>
-                      <img 
-                        src={service.image}
-                        alt={service.title}
-                        className="relative rounded-2xl shadow-card hover-lift border border-white/10"
-                      />
-                    </div>
-                  )}
+                  <h3 className="text-2xl font-bold mb-4 text-gray-900">{service.title}</h3>
+                  <p className="text-gray-700 leading-relaxed mb-6">
+                    {service.description}
+                  </p>
+                  
+                  <Button variant="neon" size="sm" className="group/btn">
+                    Learn More
+                    <ArrowRight className="w-4 h-4 ml-2 group-hover/btn:translate-x-1 transition-transform" />
+                  </Button>
                 </div>
               </Card>
             </ScrollReveal>

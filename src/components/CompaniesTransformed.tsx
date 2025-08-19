@@ -135,9 +135,9 @@ export const CompaniesTransformed = () => {
                   <h3 className="text-xl font-bold mb-2 text-gray-900">{company.name}</h3>
                   <p className="text-sm text-gray-600 mb-4">{company.industry}</p>
                   
-                  {/* Improvement */}
+                  {/* Solution Badge */}
                   <div className={`inline-flex px-4 py-2 rounded-full gradient-${company.gradient} mb-4`}>
-                    <span className="text-white font-semibold text-sm">{company.improvement}</span>
+                    <span className="text-white font-semibold text-sm">Digital Solution</span>
                   </div>
                   
                   {/* Description */}
