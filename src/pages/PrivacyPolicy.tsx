@@ -1,9 +1,12 @@
+import { Header } from "@/components/Header";
+import { Footer } from "@/components/Footer";
 import { ScrollReveal } from "@/components/ui/scroll-reveal";
 import { Shield, Lock, Eye, UserCheck, Database, Mail } from "lucide-react";
 
 const PrivacyPolicy = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-background to-muted/30">
+      <Header />
       {/* Header */}
       <section className="py-20 bg-gradient-to-br from-primary/10 to-secondary/10">
         <div className="container mx-auto px-6">
@@ -14,7 +17,7 @@ const PrivacyPolicy = () => {
                 <span className="text-sm font-semibold text-gray-800">Your Privacy Matters</span>
               </div>
               
-              <h1 className="text-4xl lg:text-6xl font-black mb-6 text-foreground">
+              <h1 className="text-4xl lg:text-6xl font-black mb-6 text-gray-900">
                 Privacy Policy
               </h1>
               
@@ -40,7 +43,7 @@ const PrivacyPolicy = () => {
               <div className="mb-12">
                 <div className="flex items-center gap-3 mb-6">
                   <UserCheck className="w-6 h-6 text-primary" />
-                  <h2 className="text-2xl font-bold text-foreground">Introduction</h2>
+                  <h2 className="text-2xl font-bold text-gray-900">Introduction</h2>
                 </div>
                 <p className="text-muted-foreground leading-relaxed">
                   GenzLogic ("we," "our," or "us") respects your privacy and is committed to protecting your personal data. 
@@ -55,12 +58,12 @@ const PrivacyPolicy = () => {
               <div className="mb-12">
                 <div className="flex items-center gap-3 mb-6">
                   <Database className="w-6 h-6 text-secondary" />
-                  <h2 className="text-2xl font-bold text-foreground">Information We Collect</h2>
+                  <h2 className="text-2xl font-bold text-gray-900">Information We Collect</h2>
                 </div>
                 
                 <div className="space-y-6">
                   <div>
-                    <h3 className="text-lg font-semibold text-foreground mb-3">Personal Information</h3>
+                    <h3 className="text-lg font-semibold text-gray-900 mb-3">Personal Information</h3>
                     <p className="text-muted-foreground mb-3">We may collect the following personal information:</p>
                     <ul className="space-y-2 text-muted-foreground ml-6">
                       <li className="flex items-start gap-2">
@@ -83,7 +86,7 @@ const PrivacyPolicy = () => {
                   </div>
                   
                   <div>
-                    <h3 className="text-lg font-semibold text-foreground mb-3">Technical Information</h3>
+                    <h3 className="text-lg font-semibold text-gray-900 mb-3">Technical Information</h3>
                     <ul className="space-y-2 text-muted-foreground ml-6">
                       <li className="flex items-start gap-2">
                         <span className="w-2 h-2 bg-secondary rounded-full mt-2 flex-shrink-0"></span>
@@ -108,7 +111,7 @@ const PrivacyPolicy = () => {
               <div className="mb-12">
                 <div className="flex items-center gap-3 mb-6">
                   <Eye className="w-6 h-6 text-accent" />
-                  <h2 className="text-2xl font-bold text-foreground">How We Use Your Information</h2>
+                  <h2 className="text-2xl font-bold text-gray-900">How We Use Your Information</h2>
                 </div>
                 
                 <p className="text-muted-foreground mb-4">We use your personal information for the following purposes:</p>
@@ -142,7 +145,7 @@ const PrivacyPolicy = () => {
               <div className="mb-12">
                 <div className="flex items-center gap-3 mb-6">
                   <Lock className="w-6 h-6 text-primary" />
-                  <h2 className="text-2xl font-bold text-foreground">Data Sharing and Disclosure</h2>
+                  <h2 className="text-2xl font-bold text-gray-900">Data Sharing and Disclosure</h2>
                 </div>
                 
                 <p className="text-muted-foreground mb-4">We do not sell your personal information. We may share your data only in the following circumstances:</p>
@@ -168,7 +171,7 @@ const PrivacyPolicy = () => {
               <div className="mb-12">
                 <div className="flex items-center gap-3 mb-6">
                   <Mail className="w-6 h-6 text-secondary" />
-                  <h2 className="text-2xl font-bold text-foreground">Social Media and Lead Collection</h2>
+                  <h2 className="text-2xl font-bold text-gray-900">Social Media and Lead Collection</h2>
                 </div>
                 
                 <p className="text-muted-foreground mb-4">
@@ -201,7 +204,7 @@ const PrivacyPolicy = () => {
               <div className="mb-12">
                 <div className="flex items-center gap-3 mb-6">
                   <Shield className="w-6 h-6 text-accent" />
-                  <h2 className="text-2xl font-bold text-foreground">Data Security</h2>
+                  <h2 className="text-2xl font-bold text-gray-900">Data Security</h2>
                 </div>
                 
                 <p className="text-muted-foreground">
@@ -217,7 +220,7 @@ const PrivacyPolicy = () => {
               <div className="mb-12">
                 <div className="flex items-center gap-3 mb-6">
                   <UserCheck className="w-6 h-6 text-primary" />
-                  <h2 className="text-2xl font-bold text-foreground">Your Rights</h2>
+                  <h2 className="text-2xl font-bold text-gray-900">Your Rights</h2>
                 </div>
                 
                 <p className="text-muted-foreground mb-4">You have the right to:</p>
@@ -251,7 +254,7 @@ const PrivacyPolicy = () => {
               <div className="bg-gradient-to-r from-primary/10 to-secondary/10 rounded-2xl p-8">
                 <div className="flex items-center gap-3 mb-6">
                   <Mail className="w-6 h-6 text-primary" />
-                  <h2 className="text-2xl font-bold text-foreground">Contact Us</h2>
+                  <h2 className="text-2xl font-bold text-gray-900">Contact Us</h2>
                 </div>
                 
                 <p className="text-muted-foreground mb-4">
@@ -273,7 +276,7 @@ const PrivacyPolicy = () => {
             {/* Updates to Policy */}
             <ScrollReveal delay={800}>
               <div className="mt-12 pt-8 border-t border-gray-200">
-                <h3 className="text-lg font-semibold text-foreground mb-4">Changes to This Privacy Policy</h3>
+                <h3 className="text-lg font-semibold text-gray-900 mb-4">Changes to This Privacy Policy</h3>
                 <p className="text-muted-foreground text-sm">
                   We may update this Privacy Policy from time to time. We will notify you of any changes by posting the 
                   new Privacy Policy on this page and updating the "Last updated" date. Your continued use of our services 
@@ -284,6 +287,8 @@ const PrivacyPolicy = () => {
           </div>
         </div>
       </section>
+      
+      <Footer />
     </div>
   );
 };
